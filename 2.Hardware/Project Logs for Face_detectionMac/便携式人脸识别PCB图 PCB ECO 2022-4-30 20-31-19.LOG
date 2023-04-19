@@ -1,0 +1,72 @@
+Added Component: Designator=D6(LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D7(LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Port1(HDR1X4H)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=R14(R0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=R15(R0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=SW_C1(6P拨码开关)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=VCC3V3 Pin=D6-1
+Added Pin To Net: NetName=VCC3V3 Pin=D7-1
+Added Pin To Net: NetName=K210_TX Pin=Port1-1
+Added Pin To Net: NetName=K210_RX Pin=Port1-2
+Added Pin To Net: NetName=GND Pin=Port1-3
+Added Pin To Net: NetName=VCC3V3 Pin=Port1-4
+Added Pin To Net: NetName=VCC3V3 Pin=SW_C1-1
+Added Pin To Net: NetName=VCC3V3 Pin=SW_C1-2
+Added Pin To Net: NetName=VCC3V3 Pin=SW_C1-3
+Added Pin To Net: NetName=VCC3V3 Pin=SW_C1-4
+Added Pin To Net: NetName=VCC3V3 Pin=SW_C1-5
+Added Pin To Net: NetName=VCC3V3 Pin=SW_C1-6
+Added Pin To Net: NetName=NetD6_K Pin=D6-2
+Added Pin To Net: NetName=NetD6_K Pin=R14-2
+Added Net: Name=NetD6_K
+Added Pin To Net: NetName=NetD7_K Pin=D7-2
+Added Pin To Net: NetName=NetD7_K Pin=R15-2
+Added Net: Name=NetD7_K
+Added Pin To Net: NetName=PA15 Pin=SW_C1-7
+Added Pin To Net: NetName=PA15 Pin=U1-38
+Added Net: Name=PA15
+Added Pin To Net: NetName=PB3 Pin=SW_C1-8
+Added Pin To Net: NetName=PB3 Pin=U1-39
+Added Net: Name=PB3
+Added Pin To Net: NetName=PB4 Pin=SW_C1-9
+Added Pin To Net: NetName=PB4 Pin=U1-40
+Added Net: Name=PB4
+Added Pin To Net: NetName=PB5 Pin=SW_C1-10
+Added Pin To Net: NetName=PB5 Pin=U1-41
+Added Net: Name=PB5
+Added Pin To Net: NetName=PB6 Pin=R15-1
+Added Pin To Net: NetName=PB6 Pin=U1-42
+Added Net: Name=PB6
+Added Pin To Net: NetName=PB7 Pin=R14-1
+Added Pin To Net: NetName=PB7 Pin=U1-43
+Added Net: Name=PB7
+Added Pin To Net: NetName=PB8 Pin=SW_C1-11
+Added Pin To Net: NetName=PB8 Pin=U1-45
+Added Net: Name=PB8
+Added Pin To Net: NetName=PB9 Pin=SW_C1-12
+Added Pin To Net: NetName=PB9 Pin=U1-46
+Added Net: Name=PB9
+Added Member To Class: ClassName=Main Member=Component D6 LED
+Added Member To Class: ClassName=Main Member=Component D7 LED
+Added Member To Class: ClassName=Main Member=Component Port1 SWD
+Added Member To Class: ClassName=Main Member=Component R14 510R，0603
+Added Member To Class: ClassName=Main Member=Component R15 510R，0603
+Added Member To Class: ClassName=Main Member=Component SW_C1 拨码开关
+Added Room: Name=Main

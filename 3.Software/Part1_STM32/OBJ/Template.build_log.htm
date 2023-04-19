@@ -1,0 +1,152 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.26.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: nlknl 能力；, 看, LIC=8VR9U-S1N65-I5NTC-7WIDY-ZYPS0-SKVNX
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.26.2.0
+Toolchain Path:  G:\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.26.2.0
+Dialog DLL:      DARMSTM.DLL V1.68.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.31.0
+Dialog DLL:      TARMSTM.DLL V1.66.0.0
+ 
+<h2>Project:</h2>
+H:\13-2021年项目\5-毕业设计_便携式人脸识别测温装置\4-工程\Software\Part1_STM32\USER\Template.uvprojx
+Project File Date:  01/11/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'G:\keil5\ARM\ARMCC\Bin'
+Rebuild target 'Template'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling stm32f10x_it.c...
+compiling stm32f10x_bkp.c...
+compiling misc.c...
+compiling stm32f10x_adc.c...
+compiling main.c...
+..\ZZL\KEY\key.h(39): warning:  #1295-D: Deprecated declaration key_EXIT - give arg types
+  void key_EXIT();
+..\ZZL\KEY\key.h(40): warning:  #1295-D: Deprecated declaration beep - give arg types
+  void beep();
+main.c(31): warning:  #1295-D: Deprecated declaration My_USART1_Init - give arg types
+  extern  void  My_USART1_Init();
+main.c(137): warning:  #223-D: function "TIM3_Int_Init" declared implicitly
+  			TIM3_Int_Init(49,7199);
+main.c(197): warning:  #223-D: function "sprintf" declared implicitly
+  				sprintf(txt,"fTbody:%3.1f",fTbody);
+main.c(223): warning:  #223-D: function "TIM3_Int_Init" declared implicitly
+  			TIM3_Int_Init(49,7199);
+main.c(232): warning:  #223-D: function "sprintf" declared implicitly
+  				sprintf(txt,"valuable:%5.2f",valuable);
+main.c: 7 warnings, 0 errors
+compiling stm32f10x_can.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_cec.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_wwdg.c...
+compiling stm32f10x_tim.c...
+compiling delay.c...
+compiling smbus.c...
+..\ZZL\SMBUS\smbus.c(41): warning:  #223-D: function "delay_us" declared implicitly
+  	delay_us(5) ;
+..\ZZL\SMBUS\smbus.c(54): warning:  #223-D: function "delay_us" declared implicitly
+  	delay_us(5) ;
+..\ZZL\SMBUS\smbus.c(69): warning:  #223-D: function "delay_us" declared implicitly
+  	delay_us(5) ;
+..\ZZL\SMBUS\smbus.c(104): warning:  #223-D: function "delay_us" declared implicitly
+  	delay_us(5) ;
+..\ZZL\SMBUS\smbus.c(117): warning:  #223-D: function "delay_us" declared implicitly
+  	delay_us(5) ;
+..\ZZL\SMBUS\smbus.c(139): warning:  #223-D: function "delay_us" declared implicitly
+          delay_us(5) ;
+..\ZZL\SMBUS\smbus.c(160): warning:  #223-D: function "delay_us" declared implicitly
+          delay_us(5) ;
+..\ZZL\SMBUS\smbus.c(262): warning:  #177-D: variable "crc"  was declared but never referenced
+  	uint8_t crc ;
+..\ZZL\SMBUS\smbus.c(99): warning:  #177-D: function "vSMBus_SendNAck"  was declared but never referenced
+  static void vSMBus_SendNAck()
+..\ZZL\SMBUS\smbus.c: 9 warnings, 0 errors
+compiling oled.c...
+compiling key.c...
+..\ZZL\KEY\key.h(39): warning:  #1295-D: Deprecated declaration key_EXIT - give arg types
+  void key_EXIT();
+..\ZZL\KEY\key.h(40): warning:  #1295-D: Deprecated declaration beep - give arg types
+  void beep();
+..\ZZL\KEY\key.c: 2 warnings, 0 errors
+compiling mlx90614.c...
+..\ZZL\MLX90614\mlx90614.c(141): warning:  #223-D: function "delay_ms" declared implicitly
+  			delay_ms(1000) ;
+..\ZZL\MLX90614\mlx90614.c(131): warning:  #177-D: variable "iTemp"  was declared but never referenced
+  	int16_t iTemp ;
+..\ZZL\MLX90614\mlx90614.c: 2 warnings, 0 errors
+compiling sys.c...
+compiling Timer.c...
+..\ZZL\Timer\Timer.c(51): warning:  #1-D: last line of file ends without a newline
+  }
+..\ZZL\Timer\Timer.c: 1 warning, 0 errors
+compiling LED.c...
+compiling USART.c...
+..\ZZL\USART\USART.h(16): warning:  #1295-D: Deprecated declaration send_END - give arg types
+  void send_END();
+..\ZZL\KEY\key.h(39): warning:  #1295-D: Deprecated declaration key_EXIT - give arg types
+  void key_EXIT();
+..\ZZL\KEY\key.h(40): warning:  #1295-D: Deprecated declaration beep - give arg types
+  void beep();
+..\ZZL\USART\USART.c(123): warning:  #177-D: variable "txt1"  was declared but never referenced
+  	char txt1[16];
+..\ZZL\USART\USART.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=25370 RO-data=2922 RW-data=5288 ZI-data=2096  
+FromELF: creating hex file...
+"..\OBJ\Template.axf" - 0 Error(s), 25 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.6.0.pack
+                ARM.CMSIS.5.6.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.3.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Template
+  G:\keil5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include
+  G:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.3.0
+Build Time Elapsed:  00:00:09
+</pre>
+</body>
+</html>

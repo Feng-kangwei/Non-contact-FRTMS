@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=GND Pin=C9-1
+Removed Pin From Net: NetName=VBAT_3.7V Pin=C9-2
+Change Component Footprint: Designator=C9 Old Footprint=C0603 New Footprint=C0805tan
+Change component parameters: Designator = "C9"; Footprint = "C0805tan"; UniqueID = "\UHOPSSBU"
+Change component parameters. Clean all parameters for all variants
+Added Pin To Net: NetName=VBAT_3.7V Pin=C9-1
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Room: Name=Main

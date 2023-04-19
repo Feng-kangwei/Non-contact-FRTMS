@@ -1,0 +1,25 @@
+{
+    "version": "0.1.0",
+    "files": [
+        {
+            "address": 0,
+            "bin": "maixpy_face_ide.bin",
+            "sha256Prefix": true
+        },
+        {
+            "address": 2097152,
+            "bin": "FD_95a4cfaa505779a2118e70350fdc5ee8.smodel",
+            "sha256Prefix": false
+        },
+        {
+            "address": 3145728,
+            "bin": "KP_chwise_95a4cfaa505779a2118e70350fdc5ee8.smodel",
+            "sha256Prefix": false
+        },
+        {
+            "address": 4194304,
+            "bin": "FE_mbv1_0.5_95a4cfaa505779a2118e70350fdc5ee8.smodel",
+            "sha256Prefix": false
+        }
+    ]
+}
